@@ -1,6 +1,7 @@
 {
   "patients": [
-    { "id": 1, "name": "John Brown", "email": "john@mailinator.com", "cnic":"17301-123456-1", "phone":"92331-5333127", "address":"address"  }
+    { "id": 1, "name": "John Brown", "email": "john@mailinator.com", "cnic":"17301-123456-1", "phone":"92331-5333127", "address":"address"  },
+    { "id": 2, "name": "Joe Gray", "email": "joe@mailinator.com", "cnic":"17301-123456-1", "phone":"92331-5333127", "address":"address"  }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },

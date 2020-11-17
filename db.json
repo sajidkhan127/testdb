@@ -1,13 +1,16 @@
 {
   "patients": [
-    { "id": 1, "name": "John Brown", "email": "john@mailinator.com", "cnic":"17301-123456-1", "phone":"92331-5333127", "address":"address"  },
-    { "id": 2, "name": "Joe Gray", "email": "joe@mailinator.com", "cnic":"17301-123455-1", "phone":"92331-5333126", "address":"testaddress"  }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    { "id": 1, "name": "John Brown", "email": "john@mailinator.com", "cnic":"17301-123456-1", "phone":"92331-5333127", 
+        "address": { "street" : "stree1",
+        "city" : "city", 
+        "county": "county",
+        "state": "state",
+        "zipcode":"12321" }  
+    },
+    { "id": 2, "name": "Joe Gray", "email": "joe@mailinator.com", "cnic":"17301-123455-1", "phone":"92331-5333126",  "address": { "street" : "stree2",
+        "city" : "city2", 
+        "county": "county2",
+        "state": "state2",
+        "zipcode":"123213" }    }
+ ]
 }
